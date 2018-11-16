@@ -13,7 +13,7 @@ const Counters = props => {
         <Counter
           key={counter.id}
           counter={counter}
-          onDeleteCounter={() => props.onDeleteCounter(counter)}
+          onDeleteCounter={props.onDeleteCounter}
           onUpdateCounter={props.onUpdateCounter}
         />
       ))}
